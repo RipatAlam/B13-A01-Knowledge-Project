@@ -215,7 +215,6 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid black;
 }
 .brain-container {
     display: flex;
@@ -223,7 +222,6 @@ button {
     align-items: center;
     text-align: left;
     gap: 50px;
-    border: 2px solid black;
 }
 .brain-container h6 {
     font-size: 16px;
