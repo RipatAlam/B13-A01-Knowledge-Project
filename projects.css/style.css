@@ -140,7 +140,123 @@ button {
 #notes-container {
     max-width: 1600px;
     height: 448px;
-    border: 2px solid black;
+    margin: 0 auto;
+}
+.main-container .note {
+    display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: bold;
+    line-height: 58px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.main-container .bad-at-learning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-direction: row;
+    margin-top: 24px;
+}
+.container-card .card-info {
+    width: 322px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    padding: 24px;
+    color: white;
+}
+.card-info .image {
+    width: 60px;
+    height: 60px;
+    color: rgba(249, 85, 85, 1);
+    background: #F95555;
+}
+.card-info h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.card-info p {
+    font-size: 15px;
+    font-weight: 350;
+    line-height: 20px;
+    color: rgba(98, 115, 130, 1);
+}
+
+#brain {
+    max-width: 1600px;
+    height: 840px;
+    padding: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.brain-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+    border: 2px solid black;
+}
+.brain-container h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.brain-container h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.brain-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 15px;
+}
+.brain-container ul {
+    list-style: none;
+    padding-top: 10px;
+}
+.brain-container ul li {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 8px;
+}
+.gap {
+    width: 20px;
+    height: 20px;
 }
