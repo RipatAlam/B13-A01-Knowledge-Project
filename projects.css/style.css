@@ -53,6 +53,10 @@ button:hover {
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
+.btn-2 {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
 .thinking {
     display: flex;
     justify-content: center;
