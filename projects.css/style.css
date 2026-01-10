@@ -314,18 +314,41 @@ button {
 
 #social-links {
     max-width: 1600px;
+    height: 348px;
+    margin: 0 auto;
+    background-color: rgba(0, 25, 49, 1);
+    padding: 40px 80px 20px;
+    color: #ffffff;
+}
+.link-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social h5 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    color: white
+}
+.icons {
+    display: flex;
+    gap: 16px;
+    padding-right: 20px;
+}
+.icons a {
+    color: #001931;
+    background-color: #ffffff;
+    border-radius: 50%;
+
+}
+hr {
+    margin-top: 200px;
+    border-bottom: rgba(229, 231, 235, 1);
+}
+.personal {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-}
-.link-container {
-    width: 1600px;
-    height: 350px;
-    margin: 0 auto;
-    background-color: rgba(0, 25, 49, 1);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 2px solid white;
+    padding-top: 15px;
 }
