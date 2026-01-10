@@ -118,6 +118,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 16px;
+    padding-top: 10px;
 }
 .btn-4 {
     width: 250px;
@@ -133,7 +134,6 @@ button {
     height: 52px;
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 
@@ -160,6 +160,7 @@ button {
     justify-content: center;
     align-items: center;
     padding-top: 16px;
+    padding-bottom: 30px;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -184,18 +185,21 @@ button {
     text-align: center;
     gap: 16px;
     padding: 24px;
-    color: white;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 8px 0 rgba(0, 25, 49, 0.5);
 }
 .card-info .image {
     width: 60px;
     height: 60px;
-    color: rgba(249, 85, 85, 1);
-    background: #F95555;
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    object-fit: none;
 }
 .card-info h3 {
     font-size: 24px;
     font-weight: 600;
     line-height: 30px;
+    color: rgba(0, 25, 49, 1);
     text-align: center;
     text-transform: capitalize;
 }
@@ -210,16 +214,19 @@ button {
     max-width: 1600px;
     height: 840px;
     padding: 120px;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .brain-container {
+    width: 1600px;
+    height: 600px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgba(0, 25, 49, 1);
     text-align: left;
     gap: 50px;
 }
@@ -253,8 +260,72 @@ button {
     font-weight: 500;
     line-height: 20px;
     padding-bottom: 8px;
+    vertical-align: middle;
 }
+
 .gap {
     width: 20px;
     height: 20px;
+}
+
+
+#early-access {
+    max-width: 1600px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0px 120px 120px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.access-container {
+    width: 1360px;
+    height: 380px;
+    padding: 80px 40px 80px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(247, 246, 242, 1);
+}
+.access-container .access h1 {
+    font-size: 40px;
+    font-weight: 700px;
+    font-style: bold;
+    line-height: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 16px;
+}
+.access-container .access p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.button-6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.btn-6 {
+    display: inline-block;
+}
+
+#social-links {
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.link-container {
+    width: 1600px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: rgba(0, 25, 49, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white;
 }
